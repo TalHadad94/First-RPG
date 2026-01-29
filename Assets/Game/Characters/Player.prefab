@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6398252703487980189}
   - component: {fileID: 7440412367090688079}
-  - component: {fileID: 1943827694}
   - component: {fileID: 1943827695}
   - component: {fileID: 1943827696}
+  - component: {fileID: 515901621}
+  - component: {fileID: 515901623}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -72,18 +73,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1943827694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6128543702564600982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 954f7aecc28dc6e49a9814c901248a97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!195 &1943827695
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -125,6 +114,30 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &515901621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6128543702564600982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dfa471ee4f8f5940b738a05f595af8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &515901623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6128543702564600982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a70913dd38a269e4f84ae0ff0ef12390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7131702433427468647
 PrefabInstance:
   m_ObjectHideFlags: 0
