@@ -1,0 +1,6 @@
+# Ignore from:
+Library/
+obj/
+Packages/
+ProjectSettings/
+Temp/
