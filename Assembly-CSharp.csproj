@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\Core\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\Core\IAction.cs" />
      <Compile Include="Assets\Scripts\Movement\Mover.cs" />
+     <None Include="Assets\Asset Packs\Animations\README - Usage Rights for these assets 1.txt" />
      <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
  <Reference Include="Unity.PackageManagerUI.Editor">
  <HintPath>E:/Games/Unity/First RPG/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
